@@ -1,0 +1,8 @@
+{
+    "type":"sqlite",
+    "database":"./aaa.sqlite",
+    "synchronize":true,
+    "logging":true,
+    "autoSchemaSync": true,
+    "entities":["./src/**/*.entity.ts","./dist/**/*.entity.js"]
+}
